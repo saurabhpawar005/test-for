@@ -1,0 +1,31 @@
+.moviesCard {
+    overflow: hidden;
+    margin-bottom: 0;
+    background-color:hsl(235, 31%, 31%);
+    position: relative;
+}
+.body{
+    background-color:#22254b;
+}
+
+.header {
+    background-color:#373b69;
+}
+
+.overview {
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: translateY(101%);
+    transition: .1s all ease-in-out;
+    height: 75%;
+    overflow-y: auto;
+    text-align: justify;
+
+}
+.moviesCard:hover .overview {
+    transform: translateY(0%); 
+ 
+}
